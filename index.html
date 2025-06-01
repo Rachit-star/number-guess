@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>I have thought of a number between 1-100</h2>
+            <h3>Can you Guess it?</h3>
+        </div>
+
+        <div class="main">
+            <input type="number" placeholder="00">
+            <button>Guess</button>
+        </div>
+
+        <div class="info">
+            <div class="limits">
+                <h5>Number of guesses:</h5>
+                <h5 id="nog">10</h5>
+            </div>
+
+            <div class="guesses">
+                <h5>Guessed numbers are:</h5>
+                <h5 id="guess"></h5>
+            </div>
+        </div>
+
+        <div class="result">
+            <p id="high">Your number is too high,get a little lower would you</p>
+            <p id="low">Your number is too low,get a little higher would you</p>
+            <p id="correct"> Correct you have guessed the number</p>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

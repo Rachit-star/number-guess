@@ -1,0 +1,88 @@
+body{
+    height: 100vh;
+    background: linear-gradient(180deg,rgb(230, 210, 210),rgb(91, 91, 219));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    min-height: 40%;
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 10%;
+}
+
+.main input{
+    font-size:20px ;
+    padding: 30px;
+    width:50px;
+    outline: none;
+    border-color: azure;
+    color: grey;
+}
+
+
+
+
+.main button{
+    padding: 20px;
+    background-color: rgb(61, 61, 199);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.info .limits,.guesses{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(199, 150, 150);
+    margin-top: 20px;
+
+}
+
+#correct{
+    padding: 20px;
+    background-color: lightgreen;
+    color: green;
+    border-color: green;
+    border-radius: 20px;
+    display: none;
+
+}
+
+#high,#low{
+    padding: 20px;
+    background-color: lightcoral;
+    color: red;
+    border-color: red;
+    border-radius: 20px;
+    display: none;
+
+}
+
+button:hover {
+    font-size: 25px;
+    box-shadow: 0 0 20px 5px rgba(101, 101, 201, 0.7);
+    transition: all 0.3s ease;
+}
+
+.main input,
+.main button {
+    transition: all 0.3s ease;
+}
